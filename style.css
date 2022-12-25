@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+}
+
+#stopwatch {
+    width: 40%;
+    height: 30%;
+    margin: auto;
+    margin-top: 160px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 80px;
+    border-radius: 30px;
+}
+
+.start_stop_reset {
+    width: 40%;
+    height: 20%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.start_stop_reset button {
+    width: 200px;
+    height: 80px;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 30px;
+}
+
+.start_stop_reset button:hover {
+    cursor: pointer;
+    border: 2px solid white;
+    padding: 15px;
+    font-size: 25px;
+}
+
+#start_stop {
+    background-color: rgb(51, 118, 232);
+}
+
+#start_stop:hover {
+    background-color: rgba(66, 129, 238, 0.663);
+}
+
+#reset {
+    background-color: aquamarine;
+}
+
+#reset:hover {
+    background-color: rgba(138, 246, 210, 0.663);
+}
